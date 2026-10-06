@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barbearia Exemplo · Piracicaba</title>
+<meta name="description" content="Barbearia Exemplo em Centro, Piracicaba. Corte masculino, Barba, Corte + barba. Agende pelo WhatsApp.">
+<style>
+:root{--bg:#f6f1e9;--ink:#1d1a16;--muted:#6b6358;--accent:#b4432c;--line:#ddd3c4;--card:#fffdf8}
+@media (prefers-color-scheme:dark){:root{--bg:#171512;--ink:#f1ebe0;--muted:#a79d8e;--accent:#e0694f;--line:#322d26;--card:#1f1c18}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 Georgia,"Times New Roman",serif}
+main{max-width:640px;margin:0 auto;padding:40px 16px 96px}
+h1{font-size:2.4rem;line-height:1.1;margin:0 0 8px;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0 0 28px;font-family:system-ui,sans-serif;font-size:.95rem}
+.cta{display:block;background:var(--accent);color:#fff;text-decoration:none;text-align:center;padding:16px;border-radius:8px;font:600 1.05rem system-ui,sans-serif}
+h2{font:600 .8rem system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:40px 0 8px}
+ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--line)}
+li span:last-child{font-family:system-ui,sans-serif;white-space:nowrap}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px;font-family:system-ui,sans-serif;font-size:.95rem}
+a{color:var(--accent)}
+.bar{position:fixed;left:0;right:0;bottom:0;padding:12px 16px;background:var(--bg);border-top:1px solid var(--line)}
+.bar .cta{max-width:640px;margin:0 auto}
+footer{margin-top:40px;color:var(--muted);font:.8rem system-ui,sans-serif}
+</style>
+</head>
+<body>
+<main>
+  <h1>Barbearia Exemplo</h1>
+  <p class="sub">Centro · Piracicaba</p>
+  <a class="cta" href="https://wa.me/5541998160225">Agendar pelo WhatsApp</a>
+
+  <h2>Serviços</h2>
+  <ul>
+    <li><span>Corte masculino</span><span>R$ 45</span></li>
+    <li><span>Barba</span><span>R$ 30</span></li>
+    <li><span>Corte + barba</span><span>R$ 65</span></li>
+  </ul>
+
+  <h2>Horários</h2>
+  <div class="card">Seg a Sex: 9h às 19h<br>Sábado: 9h às 17h</div>
+
+  <h2>Onde estamos</h2>
+  <div class="card">Rua Exemplo, 123 (negócio fictício de demonstração)<br><a href="https://www.google.com/maps/search/?api=1&query=Barbearia%20Exemplo%20Rua%20Exemplo%2C%20123%20%28neg%C3%B3cio%20fict%C3%ADcio%20de%20demonstra%C3%A7%C3%A3o%29%20Piracicaba">Abrir no Google Maps</a></div>
+
+  <footer>Site de demonstração criado para Barbearia Exemplo. Dados públicos; ajuste ou remoção a pedido.</footer>
+</main>
+<div class="bar"><a class="cta" href="https://wa.me/5541998160225">Chamar no WhatsApp</a></div>
+</body>
+</html>
